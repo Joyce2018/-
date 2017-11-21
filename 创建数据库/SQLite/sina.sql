@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS "weibo" (
+"statusID" INTEGER NOT NULL,
+"userID" INTEGER NOT NULL,
+"Text" TEXT,
+PRIMARY KEY("statusID","userID")
+);
+
+
+
